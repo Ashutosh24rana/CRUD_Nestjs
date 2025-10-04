@@ -13,7 +13,7 @@ This API demonstrates best practices for building scalable, maintainable server-
 - User CRUD endpoints
 - Database integration with TypeORM & PostgreSQL
 - Environment-based configuration
-- Unit and e2e testing
+- Unit testing
 
 ---
 
