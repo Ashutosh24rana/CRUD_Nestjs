@@ -1,4 +1,3 @@
-...existing code...
 
 # NestJS CRUD API
 
@@ -48,13 +47,6 @@ npm install
 npm run start:dev
 ```
 
-### Production
-
-```bash
-npm run build
-npm run start:prod
-```
-
 ---
 
 ## CRUD Endpoints (Users)
@@ -74,23 +66,15 @@ POST /users
 Content-Type: application/json
 
 {
-  "name": "John Doe",
-  "email": "john@example.com"
+  "email": "john@example.com",
+   "role":"admin"
 }
 ```
-
----
 
 ## Running Unit Tests
 
 ```bash
 npm run test
-```
-
-For e2e tests:
-
-```bash
-npm run test:e2e
 ```
 
 For test coverage:
@@ -100,5 +84,3 @@ npm run test:cov
 ```
 
 ---
-
-...existing code...
