@@ -63,7 +63,6 @@ npm run start:dev
 
 ```http
 POST /users
-Content-Type: application/json
 
 {
   "email": "john@example.com",
